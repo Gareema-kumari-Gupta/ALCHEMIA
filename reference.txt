@@ -1,0 +1,6 @@
+Landmark Index Map0: Wrist
+Thumb: 1 (CMC), 2 (MCP), 3 (IP), 4 (Tip)
+Index Finger: 5 (MCP), 6 (PIP), 7 (DIP), 8 (Tip)
+Middle Finger: 9 (MCP), 10 (PIP), 11 (DIP), 12 (Tip)
+Ring Finger: 13 (MCP), 14 (PIP), 15 (DIP), 16 (Tip)
+Pinky Finger: 17 (MCP), 18 (PIP), 19 (DIP), 20 (Tip)
