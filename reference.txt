@@ -4,3 +4,19 @@ Index Finger: 5 (MCP), 6 (PIP), 7 (DIP), 8 (Tip)
 Middle Finger: 9 (MCP), 10 (PIP), 11 (DIP), 12 (Tip)
 Ring Finger: 13 (MCP), 14 (PIP), 15 (DIP), 16 (Tip)
 Pinky Finger: 17 (MCP), 18 (PIP), 19 (DIP), 20 (Tip)
+
+syntax for pygame 
+
+pygame.draw.rect(surface, color, rect, width=0, border_radius=0) #to draw 4 sided shape
+# Example: Solid blue rectangle at x=50, y=50, width=100, height=80
+pygame.draw.rect(screen, (0, 0, 255), (50, 50, 100, 80))
+
+pygame.draw.circle(surface, color, center, radius, width=0) #to draw a circle
+# Example: Hollow green circle with center at (200, 150), radius 40, border 3px
+pygame.draw.circle(screen, (0, 255, 0), (200, 150), 40, width=3)
+
+
+pygame.draw.line(surface, color, start_pos, end_pos, width=1) #to draw a line
+# Example: A black diagonal line 5 pixels wide
+pygame.draw.line(screen, (0, 0, 0), (0, 0), (400, 400), width=5)
+
